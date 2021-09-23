@@ -2678,7 +2678,7 @@ extension BrowserViewController: SessionRestoreHelperDelegate {
     }
 }
 
-extension BrowserViewController: TabTrayDelegate2 {
+extension BrowserViewController: TabTrayDelegate {
     func tabOrderChanged() {
         tabsBar.updateData()
     }
